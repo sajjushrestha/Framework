@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="178998" started-at="2019-03-10T09:41:57Z" finished-at="2019-03-10T09:44:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="178998" started-at="2019-03-10T09:41:57Z" finished-at="2019-03-10T09:44:56Z">
+      <class name="test.HRMTestCase">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.HRMTestCase@5442a311]" name="cleanUp" is-config="true" duration-ms="60" started-at="2019-03-10T09:41:57Z" finished-at="2019-03-10T09:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.HRMTestCase@5442a311]" name="setUp" is-config="true" duration-ms="5524" started-at="2019-03-10T09:41:57Z" finished-at="2019-03-10T09:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HRMTestCase@5442a311]" name="login" duration-ms="18803" started-at="2019-03-10T09:42:03Z" data-provider="userData" finished-at="2019-03-10T09:42:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://orangehrm-demo-6x.orangehrmlive.com/client/#/dashboard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="applyLeave(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.HRMTestCase@5442a311]" name="applyLeave" duration-ms="25952" started-at="2019-03-10T09:42:22Z" data-provider="applyLeave" finished-at="2019-03-10T09:42:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FMLA - US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[\\Attachments\\testfile.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyLeave -->
+        <test-method status="PASS" signature="checkLeave()[pri:2, instance:test.HRMTestCase@5442a311]" name="checkLeave" duration-ms="20146" started-at="2019-03-10T09:42:48Z" finished-at="2019-03-10T09:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLeave -->
+        <test-method status="PASS" signature="expense(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:test.HRMTestCase@5442a311]" name="expense" duration-ms="106103" started-at="2019-03-10T09:43:09Z" data-provider="expense" finished-at="2019-03-10T09:44:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[INR - Indian Rupee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brunch]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Staff]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\\Attachments\\testfile.txt]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jadine Jackie]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Seoul]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expense -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.HRMTestCase@5442a311]" name="close" is-config="true" duration-ms="1356" started-at="2019-03-10T09:44:55Z" finished-at="2019-03-10T09:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.HRMTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

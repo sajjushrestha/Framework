@@ -1,0 +1,84 @@
+<html>
+<head>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('#table_id td.result').each(function(){
+
+        if ($(this).text() == 'PASS') {
+
+            $(this).css('background-color','#008000');
+
+        }
+
+              else
+
+              {
+
+              $(this).css('background-color','#f00');
+
+              }
+
+    });
+
+});
+
+ 
+
+</script>
+
+<style>
+
+table {
+
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+
+}
+
+ 
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+
+}
+
+ 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+ 
+</style>
+
+ 
+
+<title>Report generated on #DATETIME#</title>
+
+<head>
+<body>
+
+<h3><font size="5" color="black"><center>Test results</center></font></h3>
+
+<table id="table_id" align="center">
+
+<tr>
+
+<th width="13%">Step No</th>
+<th width="50%">Description</th>
+<th width="10%">Result</th>
+<th width="40%">Screenshot</th>
+
+</tr>
+
+<!-- INSERT_RESULTS -->
+
+</table>
+
+</body>

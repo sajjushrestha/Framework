@@ -1,0 +1,84 @@
+<html>
+<head>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('#table_id td.result').each(function(){
+
+        if ($(this).text() == 'PASS') {
+
+            $(this).css('background-color','#008000');
+
+        }
+
+              else
+
+              {
+
+              $(this).css('background-color','#f00');
+
+              }
+
+    });
+
+});
+
+ 
+
+</script>
+
+<style>
+
+table {
+
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+
+}
+
+ 
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+
+}
+
+ 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+ 
+</style>
+
+ 
+
+<title>Report generated on #DATETIME#</title>
+
+<head>
+<body>
+
+<h3><font size="5" color="black"><center>Test results</center></font></h3>
+
+<table id="table_id" align="center">
+
+<tr>
+
+<th width="13%">Step No</th>
+<th width="50%">Description</th>
+<th width="10%">Result</th>
+<th width="40%">Screenshot</th>
+
+</tr>
+
+<tr><td>1</td><td>Usename field is cleared</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151212.png">screenshot</a></td></tr><tr><td>2</td><td>Usename is entered</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151213.png">screenshot</a></td></tr><tr><td>3</td><td>Password field is cleared</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151214.png">screenshot</a></td></tr><tr><td>4</td><td>Password is entered</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151216.png">screenshot</a></td></tr><tr><td>5</td><td>Login Button  is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151222.png">screenshot</a></td></tr><tr><td>6</td><td>Leave module button is clciked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151224.png">screenshot</a></td></tr><tr><td>7</td><td>Apply button is clciked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151225.png">screenshot</a></td></tr><tr><td>8</td><td>Leave Type dropdown is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151227.png">screenshot</a></td></tr><tr><td>9</td><td>Leave Type - FMLA - US is selected</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151229.png">screenshot</a></td></tr><tr><td>10</td><td>Calendar icon is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151234.png">screenshot</a></td></tr><tr><td>11</td><td>Date is selected</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151239.png">screenshot</a></td></tr><tr><td>12</td><td>Attachment attached</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151242.png">screenshot</a></td></tr><tr><td>13</td><td>Apply button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151245.png">screenshot</a></td></tr><tr><td>14</td><td>Ok button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151248.png">screenshot</a></td></tr><tr><td>15</td><td>My Leave button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151251.png">screenshot</a></td></tr><tr><td>16</td><td>All Checkbox  is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151302.png">screenshot</a></td></tr><tr><td>17</td><td>Pending Approval Checkbox is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151304.png">screenshot</a></td></tr><tr><td>18</td><td>Search button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151306.png">screenshot</a></td></tr><tr><td>19</td><td>Status is retrived</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151307.png">screenshot</a></td></tr><tr><td>20</td><td>Pending Approval Status is not displayed</td><td  class='result'>FAIL</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151308.png">screenshot</a></td></tr><tr><td>21</td><td>Expenses module button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151312.png">screenshot</a></td></tr><tr><td>22</td><td>Travel Request button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151314.png">screenshot</a></td></tr><tr><td>23</td><td>Employee Request button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151323.png">screenshot</a></td></tr><tr><td>24</td><td>Add button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151325.png">screenshot</a></td></tr><tr><td>25</td><td>Currency dropdown is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151330.png">screenshot</a></td></tr><tr><td>26</td><td>Currency INR - Indian Rupee is selected</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151332.png">screenshot</a></td></tr><tr><td>27</td><td>Employee name :Jadine Jackie is entered</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151335.png">screenshot</a></td></tr><tr><td>28</td><td>Next button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151344.png">screenshot</a></td></tr><tr><td>29</td><td>Travel Info Add button button  is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151349.png">screenshot</a></td></tr><tr><td>30</td><td>Destination :Seoul is entered</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151351.png">screenshot</a></td></tr><tr><td>31</td><td>Travel Info Save button button  is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151359.png">screenshot</a></td></tr><tr><td>32</td><td>Travel Request Add button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151402.png">screenshot</a></td></tr><tr><td>33</td><td>Expense Typedropdown  is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151404.png">screenshot</a></td></tr><tr><td>34</td><td>Expense Type :Brunch  is selected</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151407.png">screenshot</a></td></tr><tr><td>35</td><td>Paid By dropdown is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151409.png">screenshot</a></td></tr><tr><td>36</td><td>Paid By :Staff  is selected</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151412.png">screenshot</a></td></tr><tr><td>37</td><td>Currency dropdown is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151414.png">screenshot</a></td></tr><tr><td>38</td><td>Currency :INR - Indian Rupee  is selected</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151417.png">screenshot</a></td></tr><tr><td>39</td><td>Amount :1000 is entered</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151419.png">screenshot</a></td></tr><tr><td>40</td><td>Save button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151427.png">screenshot</a></td></tr><tr><td>41</td><td>Travel Request Save button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151434.png">screenshot</a></td></tr><tr><td>42</td><td>Travel Request Add button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151437.png">screenshot</a></td></tr><tr><td>43</td><td>Attachment added</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151438.png">screenshot</a></td></tr><tr><td>44</td><td>Upload button is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151444.png">screenshot</a></td></tr><tr><td>45</td><td>Assign button  is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151447.png">screenshot</a></td></tr><tr><td>46</td><td>Confirm button  is clicked</td><td  class='result'>PASS</td><td><a href="file:/E:/e-Box/HRM/HRM/./screenshots/20190310_151455.png">screenshot</a></td></tr><!-- INSERT_RESULTS -->
+
+</table>
+
+</body>
