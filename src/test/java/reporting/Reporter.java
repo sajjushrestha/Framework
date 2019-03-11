@@ -33,7 +33,7 @@ public class Reporter extends BaseClass {
 		details = new ArrayList<Result>();
 	}
 	
-	public static void report(String actualValue,String Description) {
+	public static void report(Status actualValue,String Description) {
 		String screenshotPath = "";
 		try
 		{	
@@ -52,7 +52,7 @@ public class Reporter extends BaseClass {
 			if(includeScreenshots) {
 				screenshotPath = getScreenshot(driver);
 			}
-			Result r = new Result("FAIL",Description,screenshotPath);
+			Result r = new Result(Status.FAIL,Description,screenshotPath);
 			details.add(r);
 		}
 	}

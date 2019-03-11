@@ -3,6 +3,7 @@ package test;
 
 import org.testng.annotations.Test;
 import reporting.Reporter;
+import reporting.Status;
 import pages.ApplyLeavePage;
 import pages.ExpensePage;
 import pages.LoginPage;
@@ -47,16 +48,16 @@ public class HRMTestCase extends BaseClass{
 	 
 	objLeavePage.myLeave();
 	
-	String Status = objLeavePage.getStatus();
+	String Statusues = objLeavePage.getStatus();
 	
-	if(Status.contains("Pending aApproval"))
+	if(Statusues.contains("Pending aApproval"))
 	{
-		Reporter.report("PASS","Pending Approval Status is displayed");
+		Reporter.report(Status.PASS,"Pending Approval Status is displayed");
 	}
 	
 	else
 	{
-		Reporter.report("FAIL","Pending Approval Status is not displayed");
+		Reporter.report(Status.FAIL,"Pending Approval Status is not displayed");
 	}
 	
 

@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import reporting.Reporter;
+import reporting.Status;
 import utility.BaseClass;
 
 
@@ -28,10 +29,10 @@ public void setUserName(String strUserName){
 
 	driver.findElement(username).clear();
 	
-	 Reporter.report("PASS","Usename field is cleared");
+	 Reporter.report(Status.PASS,"Usename field is cleared");
 	 
     driver.findElement(username).sendKeys(strUserName);
-    Reporter.report("PASS","Usename is entered");
+    Reporter.report(Status.PASS,"Usename is entered");
 
 }
 
@@ -40,9 +41,9 @@ public void setUserName(String strUserName){
 public void setPassword(String strPassword){
 
 	 driver.findElement(password).clear();
-	 Reporter.report("PASS","Password field is cleared");
+	 Reporter.report(Status.PASS,"Password field is cleared");
      driver.findElement(password).sendKeys(strPassword);
-     Reporter.report("PASS","Password is entered");
+     Reporter.report(Status.PASS,"Password is entered");
 
 }
 
@@ -51,7 +52,7 @@ public void setPassword(String strPassword){
 public void clickLogin(){
 
      driver.findElement(loginBtn).click();
-     Reporter.report("PASS","Login Button  is clicked");
+     Reporter.report(Status.PASS,"Login Button  is clicked");
 }
 
 

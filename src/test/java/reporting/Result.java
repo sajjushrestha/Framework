@@ -2,21 +2,21 @@ package reporting;
 
 public class Result {
 	
-	private String result;
+	private Status result;
 	private String resultText;
 	private String resultScreenshot;
 	
-	public Result(String fail,String resultText, String resultScreenshot) {	
-		this.result = fail;
+	public Result(Status result,String resultText, String resultScreenshot) {	
+		this.result = result;
 		this.resultText = resultText;
 		this.resultScreenshot = resultScreenshot;
 	}
 	
-	public void setResult(String result) {
+	public void setResult(Status result) {
 		this.result = result;
 	}
 	
-	public String getResult() {
+	public Status getResult() {
 		return this.result;
 	}
 	
