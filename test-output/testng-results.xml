@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="178998" started-at="2019-03-10T09:41:57Z" finished-at="2019-03-10T09:44:56Z">
+  <suite name="Suite" duration-ms="170906" started-at="2019-03-11T17:02:33Z" finished-at="2019-03-11T17:05:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="178998" started-at="2019-03-10T09:41:57Z" finished-at="2019-03-10T09:44:56Z">
+    <test name="Test" duration-ms="170906" started-at="2019-03-11T17:02:33Z" finished-at="2019-03-11T17:05:24Z">
       <class name="test.HRMTestCase">
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.HRMTestCase@5442a311]" name="cleanUp" is-config="true" duration-ms="60" started-at="2019-03-10T09:41:57Z" finished-at="2019-03-10T09:41:57Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.HRMTestCase@5442a311]" name="cleanUp" is-config="true" duration-ms="32" started-at="2019-03-11T17:02:33Z" finished-at="2019-03-11T17:02:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.HRMTestCase@5442a311]" name="setUp" is-config="true" duration-ms="5524" started-at="2019-03-10T09:41:57Z" finished-at="2019-03-10T09:42:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.HRMTestCase@5442a311]" name="setUp" is-config="true" duration-ms="4604" started-at="2019-03-11T17:02:33Z" finished-at="2019-03-11T17:02:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HRMTestCase@5442a311]" name="login" duration-ms="18803" started-at="2019-03-10T09:42:03Z" data-provider="userData" finished-at="2019-03-10T09:42:22Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HRMTestCase@5442a311]" name="login" duration-ms="17943" started-at="2019-03-11T17:02:39Z" data-provider="userData" finished-at="2019-03-11T17:02:57Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="applyLeave(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.HRMTestCase@5442a311]" name="applyLeave" duration-ms="25952" started-at="2019-03-10T09:42:22Z" data-provider="applyLeave" finished-at="2019-03-10T09:42:48Z">
+        <test-method status="PASS" signature="applyLeave(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.HRMTestCase@5442a311]" name="applyLeave" duration-ms="25874" started-at="2019-03-11T17:02:57Z" data-provider="applyLeave" finished-at="2019-03-11T17:03:23Z">
           <params>
             <param index="0">
               <value>
@@ -57,11 +57,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyLeave -->
-        <test-method status="PASS" signature="checkLeave()[pri:2, instance:test.HRMTestCase@5442a311]" name="checkLeave" duration-ms="20146" started-at="2019-03-10T09:42:48Z" finished-at="2019-03-10T09:43:08Z">
+        <test-method status="PASS" signature="checkLeave()[pri:2, instance:test.HRMTestCase@5442a311]" name="checkLeave" duration-ms="19630" started-at="2019-03-11T17:03:23Z" finished-at="2019-03-11T17:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLeave -->
-        <test-method status="PASS" signature="expense(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:test.HRMTestCase@5442a311]" name="expense" duration-ms="106103" started-at="2019-03-10T09:43:09Z" data-provider="expense" finished-at="2019-03-10T09:44:55Z">
+        <test-method status="PASS" signature="expense(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:test.HRMTestCase@5442a311]" name="expense" duration-ms="101530" started-at="2019-03-11T17:03:42Z" data-provider="expense" finished-at="2019-03-11T17:05:24Z">
           <params>
             <param index="0">
               <value>
@@ -102,7 +102,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- expense -->
-        <test-method status="PASS" signature="close()[pri:0, instance:test.HRMTestCase@5442a311]" name="close" is-config="true" duration-ms="1356" started-at="2019-03-10T09:44:55Z" finished-at="2019-03-10T09:44:56Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:test.HRMTestCase@5442a311]" name="close" is-config="true" duration-ms="405" started-at="2019-03-11T17:05:24Z" finished-at="2019-03-11T17:05:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
