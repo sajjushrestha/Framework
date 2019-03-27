@@ -1,7 +1,7 @@
 package reporting;
 
 public enum Status {
-	//this class adding to cmmit
+	
 	/**
 	 * Indicates that the outcome of a verification was not successful
 	 */
