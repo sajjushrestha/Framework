@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Screenshot {
 
-	//test commit
+	//test commit 1
 	static SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HHmm");  
     static Date date = new Date();  
     static String newdate=formatter.format(date); 
