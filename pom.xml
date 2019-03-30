@@ -76,8 +76,17 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${org.apache.maven.plugins.maven-surefire-plugin.version}</version>
 				<configuration>
+				    <configuration>
+				      <systemPropertyVariables>
+				       <url>${Durl}</url>
+				       <username>${Dusername}</username>
+				       <password>${Dpassword}</password>
+				      </systemPropertyVariables>
+				
+					</configuration>
+				
 				<suiteXmlFiles>
-					<suiteXmlFile>testng.xml</suiteXmlFile>
+					<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

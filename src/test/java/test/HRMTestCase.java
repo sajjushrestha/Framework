@@ -20,8 +20,14 @@ public class HRMTestCase extends BaseClass{
 	ExpensePage objExpensePage;
 	
 
-	 @Test(dataProvider="userData",dataProviderClass = ReadExcel.class)
-	 public void login(String url,String username,String password) {
+	//@Test(dataProvider="userData",dataProviderClass = ReadExcel.class)
+	
+	@Test()
+	 public void login() {
+		 
+		 String url=System.getProperty("url");
+		 String username=System.getProperty("username");
+		 String password=System.getProperty("password");
 		 
 	  objLogin = new LoginPage(driver);
 		
