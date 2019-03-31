@@ -7,7 +7,7 @@
       <class name="test.HRMTestCase">
       <methods>
       <include name="login"></include>
-      <exclude name="applyLeave"></exclude>
+      <include name="applyLeave"></include>
         <exclude name="checkLeave"></exclude>
           <exclude name="expense"></exclude>
       </methods>
