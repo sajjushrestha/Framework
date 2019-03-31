@@ -59,8 +59,8 @@ public void cleanUp()
 		
 		 Reporter.writeResults();
 		 
-		 
-		 driver.get(currentDir+"\\report.html");
+		 //commented the below line after jenkins integeration
+		// driver.get(currentDir+"\\report.html");
 	 }
 	 
 }
